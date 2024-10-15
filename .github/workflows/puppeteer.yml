@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Install Dependencies
         run: npm install
-      - name: Run Script
+      - name: Run the Script
         run: node scripts/main.mjs
       - name: Archive Artifacts
         uses: actions/upload-artifact@v4
